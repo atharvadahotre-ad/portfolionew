@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Orbit Design System — Atharva Dahotre</title>
+<meta name="description" content="Case Study: How I designed Orbit end-to-end — a complete design system, app, and landing page that got 2000+ waitlist signups.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500&family=DM+Mono:wght@300;400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+
+<div id="cur-dot"></div>
+<div id="cur-ring"></div>
+
+<!-- SIDEBAR -->
+<aside id="sidebar">
+  <div class="side-avatar-wrap">
+    <div class="side-avatar">AD</div>
+    <div class="status-dot"></div>
+  </div>
+  <div class="side-open">
+    <span style="width:7px;height:7px;border-radius:50%;background:var(--green);flex-shrink:0;display:inline-block;"></span>
+    Open to Work
+  </div>
+  <div class="side-name">Atharva Dahotre</div>
+  <div class="side-handle"><span>@atharvadahotre</span><span>·</span><span>📍 Bengaluru</span></div>
+  <div class="side-role">Product Designer</div>
+  <div class="side-exp">5+ Years Experience</div>
+  <div class="side-actions">
+    <button class="btn-msg">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+      Message
+    </button>
+    <button class="btn-bk">🔖</button>
+  </div>
+  <div class="side-divider"></div>
+  <nav class="side-nav">
+    <a href="../index.html"><span class="icon">◈</span> Profile</a>
+    <a href="../index.html#work" class="active"><span class="icon">◫</span> Portfolio</a>
+  </nav>
+  <div class="side-divider" style="margin-top:16px;"></div>
+  <div class="theme-toggle-wrap">
+    <button id="theme-toggle" aria-label="Toggle theme"><div id="theme-toggle-thumb">☀︎</div></button>
+    <span class="theme-toggle-label" id="theme-label">Dark mode</span>
+  </div>
+  <div class="side-footer">
+    <div>atharvadahotre.com</div>
+    <div style="font-size:10px;color:var(--muted);margin-top:2px;">© 2025</div>
+  </div>
+</aside>
+
+<!-- MAIN -->
+<main id="main">
+
+  <div class="cs-hero">
+    <a href="../index.html" class="cs-back reveal">← Back to Portfolio</a>
+
+    <div class="cs-category reveal">Product Design · Design System · Landing Page</div>
+    <h1 class="cs-hero-title reveal d1">
+      Designing Orbit <em>end-to-end</em> —<br>app, system, and landing page
+    </h1>
+    <p class="cs-hero-desc reveal d2">
+      How I built a complete design system from zero, shipped a fully-designed SaaS app, and launched a landing page that hit 2000+ waitlist signups — all in 6 weeks.
+    </p>
+
+    <div class="cs-meta reveal d2">
+      <div class="cs-meta-item">
+        <div class="cs-meta-label">Role</div>
+        <div class="cs-meta-value">Solo Product Designer</div>
+      </div>
+      <div class="cs-meta-item">
+        <div class="cs-meta-label">Timeline</div>
+        <div class="cs-meta-value">6 weeks, 2024</div>
+      </div>
+      <div class="cs-meta-item">
+        <div class="cs-meta-label">Platform</div>
+        <div class="cs-meta-value">Web (SaaS + Marketing)</div>
+      </div>
+      <div class="cs-meta-item">
+        <div class="cs-meta-label">Tools</div>
+        <div class="cs-meta-value">Figma, Framer, Notion</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- COVER -->
+  <div class="cs-cover reveal">
+    <div class="cs-cover-inner" style="background:linear-gradient(135deg,#061418,#0d2230,#040e14);">
+      <div style="position:absolute;inset:0;background:radial-gradient(ellipse at 60% 40%,rgba(226,201,126,.28),transparent 55%);"></div>
+      <div style="position:absolute;inset:0;background:radial-gradient(ellipse at 20% 70%,rgba(74,222,128,.1),transparent 50%);"></div>
+      <div class="cs-cover-label">crafting<br>orbit</div>
+    </div>
+  </div>
+
+  <div class="sec-divider"></div>
+
+  <!-- STATS -->
+  <div class="cs-stats reveal">
+    <div class="cs-stat">
+      <div class="cs-stat-num" data-count="200" data-suffix="+">200+</div>
+      <div class="cs-stat-label">Components in<br>the design system</div>
+    </div>
+    <div class="cs-stat">
+      <div class="cs-stat-num" data-count="2000" data-suffix="+">2000+</div>
+      <div class="cs-stat-label">Waitlist signups<br>on launch day</div>
+    </div>
+    <div class="cs-stat">
+      <div class="cs-stat-num" data-count="6" data-suffix=" wks">6 wks</div>
+      <div class="cs-stat-label">From brief to<br>shipped product</div>
+    </div>
+    <div class="cs-stat">
+      <div class="cs-stat-num" data-count="3" data-suffix=" teams">3</div>
+      <div class="cs-stat-label">Product teams<br>using the system</div>
+    </div>
+  </div>
+
+  <div class="sec-divider"></div>
+
+  <!-- CONTEXT -->
+  <section class="cs-section">
+    <div class="sec-label reveal">01 — Context</div>
+    <h2 class="cs-section-title reveal d1">Three teams, zero <em>shared language</em></h2>
+    <p class="cs-body reveal d1">Orbits was scaling fast. Three product teams were shipping independently — each using their own component library, their own spacing scale, and their own interpretation of the brand. The result was a product that looked fractured and felt inconsistent.</p>
+    <p class="cs-body reveal d2">I was handed a brief with three deliverables: a unified design system, a redesigned core app experience, and a marketing landing page to drive the v2 waitlist. Six weeks. One designer.</p>
+
+    <div class="cs-callout reveal d2">
+      <div class="cs-callout-label">The Brief</div>
+      <div class="cs-callout-text">"Give us one visual language. Make the app feel like one product. Then sell it to the world."</div>
+    </div>
+  </section>
+
+  <div class="sec-divider"></div>
+
+  <!-- DESIGN SYSTEM -->
+  <section class="cs-section">
+    <div class="sec-label reveal">02 — Design System</div>
+    <h2 class="cs-section-title reveal d1">Building the <em>foundation</em> first</h2>
+    <p class="cs-body reveal d1">I started with tokens — colour, typography, spacing, radius, and shadow. Everything downstream would inherit from these primitives. I ran a two-day audit of every existing UI screen across all three teams to catalogue what existed and identify what needed to be standardised.</p>
+    <p class="cs-body reveal d2">The system was built in Figma with Auto Layout, component properties, and interactive states for every component. I wrote a companion documentation page in Notion covering usage guidelines, anti-patterns, and handoff notes for engineers.</p>
+
+    <div class="cs-screens cols-3 reveal d1">
+      <div class="cs-screen" style="background:linear-gradient(160deg,#061418,#0d2230);">
+        <div style="position:absolute;inset:0;background:radial-gradient(ellipse at 50% 50%,rgba(226,201,126,.2),transparent 65%);"></div>
+        <div class="cs-screen-label">Colour &amp; token<br>foundations</div>
+      </div>
+      <div class="cs-screen" style="background:linear-gradient(160deg,#08100a,#122018);">
+        <div style="position:absolute;inset:0;background:radial-gradient(ellipse at 50% 50%,rgba(74,222,128,.15),transparent 65%);"></div>
+        <div class="cs-screen-label">Component<br>library overview</div>
+      </div>
+      <div class="cs-screen" style="background:linear-gradient(160deg,#0d0d18,#1a1a2e);">
+        <div style="position:absolute;inset:0;background:radial-gradient(ellipse at 50% 40%,rgba(123,110,246,.2),transparent 65%);"></div>
+        <div class="cs-screen-label">Typography<br>scale system</div>
+      </div>
+    </div>
+  </section>
+
+  <div class="sec-divider"></div>
+
+  <!-- PROCESS -->
+  <section class="cs-section">
+    <div class="sec-label reveal">03 — Process</div>
+    <h2 class="cs-section-title reveal d1">Parallel tracks, <em>tight feedback</em> loops</h2>
+
+    <div class="cs-process reveal d1">
+      <div class="process-step">
+        <div class="process-step-num">Week 1–2</div>
+        <div class="process-step-title">Audit &amp; Token Architecture</div>
+        <div class="process-step-desc">Inventoried 300+ screens, extracted patterns, and built the token system in Figma Variables. Aligned with engineering on naming conventions.</div>
+      </div>
+      <div class="process-step">
+        <div class="process-step-num">Week 2–4</div>
+        <div class="process-step-title">Component Library Build</div>
+        <div class="process-step-desc">Built 200+ components across atoms, molecules, and organisms. Every component had 4 states: default, hover, active, disabled.</div>
+      </div>
+      <div class="process-step">
+        <div class="process-step-num">Week 3–5</div>
+        <div class="process-step-title">App Redesign</div>
+        <div class="process-step-desc">Rebuilt the core app flows using the new system — dashboard, analytics, onboarding, and settings. Tested critical flows with 4 users.</div>
+      </div>
+      <div class="process-step">
+        <div class="process-step-num">Week 5–6</div>
+        <div class="process-step-title">Landing Page &amp; Launch</div>
+        <div class="process-step-desc">Designed and built the marketing landing page in Framer. Iterated on the hero and social proof sections 3 times based on team feedback.</div>
+      </div>
+    </div>
+  </section>
+
+  <div class="sec-divider"></div>
+
+  <!-- APP SCREENS -->
+  <section class="cs-section">
+    <div class="sec-label reveal">04 — App &amp; Landing Page</div>
+    <h2 class="cs-section-title reveal d1">One product, one <em>visual voice</em></h2>
+    <p class="cs-body reveal d1">With the system in place, redesigning the app was faster than expected. The hardest part wasn't the design — it was the negotiation. Each team had preferences and legacy patterns they were attached to. I facilitated three design reviews and used the system documentation to make decisions objective rather than opinion-based.</p>
+
+    <div class="cs-screens cols-2 reveal d2">
+      <div class="cs-screen" style="aspect-ratio:16/9;background:linear-gradient(135deg,#061418,#0d2a3a);">
+        <div style="position:absolute;inset:0;background:radial-gradient(ellipse at 40% 40%,rgba(226,201,126,.22),transparent 55%);"></div>
+        <div class="cs-screen-label">App — Dashboard redesign</div>
+      </div>
+      <div class="cs-screen" style="aspect-ratio:16/9;background:linear-gradient(135deg,#030d10,#082030);">
+        <div style="position:absolute;inset:0;background:radial-gradient(ellipse at 65% 55%,rgba(74,222,128,.15),transparent 55%);"></div>
+        <div class="cs-screen-label">Landing page — Hero section</div>
+      </div>
+    </div>
+
+    <div class="cs-callout reveal d2">
+      <div class="cs-callout-label">Outcome</div>
+      <div class="cs-callout-text">"Using the system documentation to make decisions objective rather than opinion-based cut our design review time in half."</div>
+    </div>
+  </section>
+
+  <div class="sec-divider"></div>
+
+  <!-- RESULTS -->
+  <section class="cs-section">
+    <div class="sec-label reveal">05 — Results</div>
+    <h2 class="cs-section-title reveal d1">Shipped in 6 weeks. <em>Still running.</em></h2>
+    <p class="cs-body reveal d1">The landing page went live on a Tuesday. By Friday it had 2,000+ waitlist signups — primarily from organic Twitter shares of the design system preview. The system became the single source of truth across all three product teams and has been maintained and extended ever since.</p>
+    <p class="cs-body reveal d2">The engineering team reported that component handoff time dropped by an estimated 40% compared to previous projects. The design system documentation was cited as a major factor in the quality and speed of implementation.</p>
+  </section>
+
+  <div class="sec-divider"></div>
+
+  <!-- NEXT / PREV -->
+  <div class="cs-nav reveal">
+    <a href="finedge.html" class="cs-nav-card prev">
+      <div class="cs-nav-dir">← Previous</div>
+      <div class="cs-nav-title">FinEdge PDP Redesign</div>
+      <div class="cs-nav-arr">←</div>
+    </a>
+    <a href="analytics.html" class="cs-nav-card">
+      <div class="cs-nav-dir">Next Case Study →</div>
+      <div class="cs-nav-title">Analytics Platform</div>
+      <div class="cs-nav-arr">→</div>
+    </a>
+  </div>
+
+  <div style="height:48px;"></div>
+</main>
+
+<script src="../js/main.js"></script>
+</body>
+</html>

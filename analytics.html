@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Analytics Platform — Atharva Dahotre</title>
+<meta name="description" content="Case Study: Turning dense analytics data into actionable interfaces for 500+ enterprise users.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500&family=DM+Mono:wght@300;400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+
+<div id="cur-dot"></div>
+<div id="cur-ring"></div>
+
+<!-- SIDEBAR -->
+<aside id="sidebar">
+  <div class="side-avatar-wrap">
+    <div class="side-avatar">AD</div>
+    <div class="status-dot"></div>
+  </div>
+  <div class="side-open">
+    <span style="width:7px;height:7px;border-radius:50%;background:var(--green);flex-shrink:0;display:inline-block;"></span>
+    Open to Work
+  </div>
+  <div class="side-name">Atharva Dahotre</div>
+  <div class="side-handle"><span>@atharvadahotre</span><span>·</span><span>📍 Bengaluru</span></div>
+  <div class="side-role">Product Designer</div>
+  <div class="side-exp">5+ Years Experience</div>
+  <div class="side-actions">
+    <button class="btn-msg">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+      Message
+    </button>
+    <button class="btn-bk">🔖</button>
+  </div>
+  <div class="side-divider"></div>
+  <nav class="side-nav">
+    <a href="../index.html"><span class="icon">◈</span> Profile</a>
+    <a href="../index.html#work" class="active"><span class="icon">◫</span> Portfolio</a>
+  </nav>
+  <div class="side-divider" style="margin-top:16px;"></div>
+  <div class="theme-toggle-wrap">
+    <button id="theme-toggle" aria-label="Toggle theme"><div id="theme-toggle-thumb">☀︎</div></button>
+    <span class="theme-toggle-label" id="theme-label">Dark mode</span>
+  </div>
+  <div class="side-footer">
+    <div>atharvadahotre.com</div>
+    <div style="font-size:10px;color:var(--muted);margin-top:2px;">© 2025</div>
+  </div>
+</aside>
+
+<!-- MAIN -->
+<main id="main">
+
+  <div class="cs-hero">
+    <a href="../index.html" class="cs-back reveal">← Back to Portfolio</a>
+
+    <div class="cs-category reveal">Dashboard Design · B2B SaaS · Enterprise</div>
+    <h1 class="cs-hero-title reveal d1">
+      Turning dense data into<br><em>actionable</em> interfaces
+    </h1>
+    <p class="cs-hero-desc reveal d2">
+      How I redesigned a complex analytics platform used by 500+ enterprise users daily — replacing overwhelming data tables with scannable visual hierarchies that reduced support tickets by 28%.
+    </p>
+
+    <div class="cs-meta reveal d2">
+      <div class="cs-meta-item">
+        <div class="cs-meta-label">Role</div>
+        <div class="cs-meta-value">Senior Product Designer</div>
+      </div>
+      <div class="cs-meta-item">
+        <div class="cs-meta-label">Timeline</div>
+        <div class="cs-meta-value">14 weeks, 2023</div>
+      </div>
+      <div class="cs-meta-item">
+        <div class="cs-meta-label">Platform</div>
+        <div class="cs-meta-value">Web (B2B SaaS)</div>
+      </div>
+      <div class="cs-meta-item">
+        <div class="cs-meta-label">Tools</div>
+        <div class="cs-meta-value">Figma, FullStory, Dovetail</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- COVER -->
+  <div class="cs-cover reveal">
+    <div class="cs-cover-inner" style="background:linear-gradient(135deg,#091309,#132213,#060f06);">
+      <div style="position:absolute;inset:0;background:radial-gradient(ellipse at 65% 35%,rgba(74,222,128,.28),transparent 55%);"></div>
+      <div style="position:absolute;inset:0;background:radial-gradient(ellipse at 25% 70%,rgba(226,201,126,.12),transparent 50%);"></div>
+      <div class="cs-cover-label">crafting<br>analytics</div>
+    </div>
+  </div>
+
+  <div class="sec-divider"></div>
+
+  <!-- STATS -->
+  <div class="cs-stats reveal">
+    <div class="cs-stat">
+      <div class="cs-stat-num" data-count="34" data-prefix="+" data-suffix="%">+34%</div>
+      <div class="cs-stat-label">Daily active<br>usage increase</div>
+    </div>
+    <div class="cs-stat">
+      <div class="cs-stat-num" data-count="28" data-prefix="−" data-suffix="%">−28%</div>
+      <div class="cs-stat-label">Support tickets<br>reduction</div>
+    </div>
+    <div class="cs-stat">
+      <div class="cs-stat-num" data-count="500" data-suffix="+">500+</div>
+      <div class="cs-stat-label">Enterprise users<br>impacted</div>
+    </div>
+    <div class="cs-stat">
+      <div class="cs-stat-num" data-count="4.6" data-suffix="/5">4.6/5</div>
+      <div class="cs-stat-label">User satisfaction<br>score post-launch</div>
+    </div>
+  </div>
+
+  <div class="sec-divider"></div>
+
+  <!-- PROBLEM -->
+  <section class="cs-section">
+    <div class="sec-label reveal">01 — The Problem</div>
+    <h2 class="cs-section-title reveal d1">Data everywhere. <em>Insight nowhere.</em></h2>
+    <p class="cs-body reveal d1">The platform had powerful data — but it was locked behind 47-column spreadsheet exports, deeply nested navigation, and a dashboard that required users to run a report before they could see anything meaningful. Power users had developed elaborate workarounds. New users were churning within their first 30 days.</p>
+    <p class="cs-body reveal d2">The business problem was clear: enterprise accounts were underutilising the platform, leading to poor renewal conversations. The product team needed a redesign that would make the value of the platform immediately visible — without reducing its analytical depth.</p>
+
+    <div class="cs-callout reveal d2">
+      <div class="cs-callout-label">Core Tension</div>
+      <div class="cs-callout-text">"Power users needed depth. New users needed clarity. The design had to serve both without compromising either."</div>
+    </div>
+  </section>
+
+  <div class="sec-divider"></div>
+
+  <!-- RESEARCH -->
+  <section class="cs-section">
+    <div class="sec-label reveal">02 — Research</div>
+    <h2 class="cs-section-title reveal d1">Understanding two very different <em>mental models</em></h2>
+    <p class="cs-body reveal d1">I ran 8 contextual interviews — split evenly between power users and newer users. I watched them use the existing platform and asked them to narrate their thinking. The gap was stark: power users were navigating from memory, while new users were constantly lost.</p>
+    <p class="cs-body reveal d2">FullStory session data confirmed what the interviews suggested — 68% of new users never made it past the first dashboard. The primary navigation was being used in completely different orders by the two user groups.</p>
+
+    <div class="cs-screens cols-2 reveal d2">
+      <div class="cs-screen" style="background:linear-gradient(135deg,#091309,#162316);">
+        <div style="position:absolute;inset:0;background:radial-gradient(ellipse at 50% 50%,rgba(74,222,128,.18),transparent 65%);"></div>
+        <div class="cs-screen-label">User journey<br>mapping session</div>
+      </div>
+      <div class="cs-screen" style="background:linear-gradient(135deg,#0a1a0a,#152515);">
+        <div style="position:absolute;inset:0;background:radial-gradient(ellipse at 50% 50%,rgba(226,201,126,.12),transparent 65%);"></div>
+        <div class="cs-screen-label">Navigation pattern<br>analysis from FullStory</div>
+      </div>
+    </div>
+  </section>
+
+  <div class="sec-divider"></div>
+
+  <!-- PROCESS -->
+  <section class="cs-section">
+    <div class="sec-label reveal">03 — Design Process</div>
+    <h2 class="cs-section-title reveal d1">From information architecture<br>to <em>polished interface</em></h2>
+
+    <div class="cs-process reveal d1">
+      <div class="process-step">
+        <div class="process-step-num">Phase 1</div>
+        <div class="process-step-title">IA Restructure</div>
+        <div class="process-step-desc">Ran a card sort with 12 users to rebuild the information architecture from user mental models rather than database structure. Reduced top-level nav items from 11 to 5.</div>
+      </div>
+      <div class="process-step">
+        <div class="process-step-num">Phase 2</div>
+        <div class="process-step-title">Progressive Disclosure</div>
+        <div class="process-step-desc">Designed a layered system: summary cards at the surface, drill-down tables on click, full export on demand. Every level has a clear purpose and a clear escape.</div>
+      </div>
+      <div class="process-step">
+        <div class="process-step-num">Phase 3</div>
+        <div class="process-step-title">Intelligent Defaults</div>
+        <div class="process-step-desc">Built a personalised dashboard that surfaces the 3 metrics each user cares about most based on their role and usage history. No configuration required on day one.</div>
+      </div>
+      <div class="process-step">
+        <div class="process-step-num">Phase 4</div>
+        <div class="process-step-title">Visualisation System</div>
+        <div class="process-step-desc">Designed a consistent chart library — 8 chart types with clear usage guidance. Replaced 12 inconsistent legacy chart styles with one unified visual language.</div>
+      </div>
+    </div>
+  </section>
+
+  <div class="sec-divider"></div>
+
+  <!-- SOLUTION -->
+  <section class="cs-section">
+    <div class="sec-label reveal">04 — Solution</div>
+    <h2 class="cs-section-title reveal d1">Surface the signal. <em>Hide the noise.</em></h2>
+    <p class="cs-body reveal d1">The redesigned platform opens with a personalised summary dashboard — three key metrics, one chart, and a "What happened this week" feed that surfaces anomalies automatically. It answers the most important question before users have to ask it.</p>
+    <p class="cs-body reveal d2">Deep analysis is one click away, not buried. The drill-down pattern is consistent across every section — users learn it once and it works everywhere. Power users retain full access to raw data and custom views; they just no longer have to start there.</p>
+
+    <div class="cs-screens cols-3 reveal d1">
+      <div class="cs-screen" style="background:linear-gradient(160deg,#091309,#132213);">
+        <div style="position:absolute;inset:0;background:radial-gradient(ellipse at 50% 30%,rgba(74,222,128,.2),transparent 60%);"></div>
+        <div class="cs-screen-label">Summary dashboard<br>— new users</div>
+      </div>
+      <div class="cs-screen" style="background:linear-gradient(160deg,#060f06,#0f1f0f);">
+        <div style="position:absolute;inset:0;background:radial-gradient(ellipse at 50% 60%,rgba(226,201,126,.15),transparent 60%);"></div>
+        <div class="cs-screen-label">Drill-down analytics<br>— power users</div>
+      </div>
+      <div class="cs-screen" style="background:linear-gradient(160deg,#0a140a,#141e14);">
+        <div style="position:absolute;inset:0;background:radial-gradient(ellipse at 40% 50%,rgba(74,222,128,.12),transparent 60%);"></div>
+        <div class="cs-screen-label">Chart library<br>component view</div>
+      </div>
+    </div>
+
+    <div class="cs-callout reveal d2">
+      <div class="cs-callout-label">Design Principle</div>
+      <div class="cs-callout-text">"Every screen should answer one question. If a screen is trying to answer three questions, it's really answering none of them."</div>
+    </div>
+  </section>
+
+  <div class="sec-divider"></div>
+
+  <!-- RESULTS -->
+  <section class="cs-section">
+    <div class="sec-label reveal">05 — Results &amp; Learnings</div>
+    <h2 class="cs-section-title reveal d1">The numbers, and what I'd <em>do differently</em></h2>
+    <p class="cs-body reveal d1">Three months post-launch: DAU up 34%, support ticket volume down 28%, and the NPS score for the platform jumped 18 points. The customer success team reported that renewal conversations were markedly easier — customers could now demonstrate the value of the platform from the dashboard alone.</p>
+    <p class="cs-body reveal d2">If I were doing this again, I'd push harder to get engineers involved in the research phase. Some of the most impactful "intelligent defaults" features were delayed because they required backend work we hadn't scoped early enough. Better alignment upfront would have shipped a more complete v1.</p>
+  </section>
+
+  <div class="sec-divider"></div>
+
+  <!-- NEXT / PREV -->
+  <div class="cs-nav reveal">
+    <a href="orbit.html" class="cs-nav-card prev">
+      <div class="cs-nav-dir">← Previous</div>
+      <div class="cs-nav-title">Orbit Design System</div>
+      <div class="cs-nav-arr">←</div>
+    </a>
+    <a href="../index.html" class="cs-nav-card">
+      <div class="cs-nav-dir">Back to Portfolio →</div>
+      <div class="cs-nav-title">View all work</div>
+      <div class="cs-nav-arr">→</div>
+    </a>
+  </div>
+
+  <div style="height:48px;"></div>
+</main>
+
+<script src="../js/main.js"></script>
+</body>
+</html>

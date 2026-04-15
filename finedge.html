@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FinEdge PDP Redesign — Atharva Dahotre</title>
+<meta name="description" content="Case Study: Why were users adding to cart but not checking out? A product detail page redesign for FinEdge.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500&family=DM+Mono:wght@300;400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+
+<div id="cur-dot"></div>
+<div id="cur-ring"></div>
+
+<!-- SIDEBAR -->
+<aside id="sidebar">
+  <div class="side-avatar-wrap">
+    <div class="side-avatar">AD</div>
+    <div class="status-dot"></div>
+  </div>
+  <div class="side-open">
+    <span style="width:7px;height:7px;border-radius:50%;background:var(--green);flex-shrink:0;display:inline-block;"></span>
+    Open to Work
+  </div>
+  <div class="side-name">Atharva Dahotre</div>
+  <div class="side-handle"><span>@atharvadahotre</span><span>·</span><span>📍 Bengaluru</span></div>
+  <div class="side-role">Product Designer</div>
+  <div class="side-exp">5+ Years Experience</div>
+  <div class="side-actions">
+    <button class="btn-msg">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+      Message
+    </button>
+    <button class="btn-bk">🔖</button>
+  </div>
+  <div class="side-divider"></div>
+  <nav class="side-nav">
+    <a href="../index.html"><span class="icon">◈</span> Profile</a>
+    <a href="../index.html#work" class="active"><span class="icon">◫</span> Portfolio</a>
+  </nav>
+  <div class="side-divider" style="margin-top:16px;"></div>
+  <div class="theme-toggle-wrap">
+    <button id="theme-toggle" aria-label="Toggle theme"><div id="theme-toggle-thumb">☀︎</div></button>
+    <span class="theme-toggle-label" id="theme-label">Dark mode</span>
+  </div>
+  <div class="side-footer">
+    <div>atharvadahotre.com</div>
+    <div style="font-size:10px;color:var(--muted);margin-top:2px;">© 2025</div>
+  </div>
+</aside>
+
+<!-- MAIN -->
+<main id="main">
+
+  <div class="cs-hero">
+    <a href="../index.html" class="cs-back reveal">← Back to Portfolio</a>
+
+    <div class="cs-category reveal">Interaction Design · Mobile App</div>
+    <h1 class="cs-hero-title reveal d1">
+      Why were users adding to cart<br>but <em>not checking out?</em>
+    </h1>
+    <p class="cs-hero-desc reveal d2">
+      A deep dive into FinEdge's product detail page — uncovering friction, rebuilding trust signals, and redesigning the checkout flow to convert intent into action.
+    </p>
+
+    <div class="cs-meta reveal d2">
+      <div class="cs-meta-item">
+        <div class="cs-meta-label">Role</div>
+        <div class="cs-meta-value">Lead Product Designer</div>
+      </div>
+      <div class="cs-meta-item">
+        <div class="cs-meta-label">Timeline</div>
+        <div class="cs-meta-value">10 weeks, 2024</div>
+      </div>
+      <div class="cs-meta-item">
+        <div class="cs-meta-label">Platform</div>
+        <div class="cs-meta-value">iOS &amp; Android</div>
+      </div>
+      <div class="cs-meta-item">
+        <div class="cs-meta-label">Tools</div>
+        <div class="cs-meta-value">Figma, Maze, Hotjar</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- COVER -->
+  <div class="cs-cover reveal">
+    <div class="cs-cover-inner" style="background:linear-gradient(135deg,#1a1020,#2e1b44,#150e28);">
+      <div style="position:absolute;inset:0;background:radial-gradient(ellipse at 60% 40%,rgba(123,110,246,.4),transparent 55%);"></div>
+      <div style="position:absolute;inset:0;background:radial-gradient(ellipse at 20% 80%,rgba(226,201,126,.15),transparent 50%);"></div>
+      <div class="cs-cover-label">crafting<br>finedge</div>
+    </div>
+  </div>
+
+  <div class="sec-divider"></div>
+
+  <!-- IMPACT STATS -->
+  <div class="cs-stats reveal">
+    <div class="cs-stat">
+      <div class="cs-stat-num" data-count="0.92" data-prefix="+" data-suffix="%">+0.92%</div>
+      <div class="cs-stat-label">Conversion Rate<br>increase</div>
+    </div>
+    <div class="cs-stat">
+      <div class="cs-stat-num" data-count="1.33" data-prefix="+" data-suffix="%">+1.33%</div>
+      <div class="cs-stat-label">Revenue Per<br>User lift</div>
+    </div>
+    <div class="cs-stat">
+      <div class="cs-stat-num" data-count="0.36" data-prefix="+" data-suffix="%">+0.36%</div>
+      <div class="cs-stat-label">Average Order<br>Value increase</div>
+    </div>
+    <div class="cs-stat">
+      <div class="cs-stat-num" data-count="22" data-prefix="" data-suffix="%">22%</div>
+      <div class="cs-stat-label">Checkout drop-off<br>reduction</div>
+    </div>
+  </div>
+
+  <div class="sec-divider"></div>
+
+  <!-- PROBLEM -->
+  <section class="cs-section">
+    <div class="sec-label reveal">01 — The Problem</div>
+    <h2 class="cs-section-title reveal d1">Users were <em>interested</em> — so why weren't they buying?</h2>
+    <p class="cs-body reveal d1">FinEdge had strong top-of-funnel metrics. Users were discovering products, spending time on pages, and adding items to cart. But somewhere between the product detail page and checkout, a significant portion were abandoning. The business knew there was a problem. No one knew exactly why.</p>
+    <p class="cs-body reveal d2">I was brought in to diagnose the friction, hypothesise solutions, and ship a redesign — all within a 10-week sprint cycle aligned to a major app update.</p>
+
+    <div class="cs-callout reveal d2">
+      <div class="cs-callout-label">The Key Question</div>
+      <div class="cs-callout-text">"We have the intent. We're losing the action. What's breaking between wanting and buying?"</div>
+    </div>
+  </section>
+
+  <div class="sec-divider"></div>
+
+  <!-- RESEARCH -->
+  <section class="cs-section">
+    <div class="sec-label reveal">02 — Research</div>
+    <h2 class="cs-section-title reveal d1">Finding the <em>real</em> friction</h2>
+    <p class="cs-body reveal d1">I ran three parallel research tracks: session recordings via Hotjar to watch real abandonment patterns, five moderated usability tests with target users, and a heuristic audit of the existing PDP against Nielsen's principles.</p>
+    <p class="cs-body reveal d2">Three patterns emerged consistently: users couldn't quickly assess product trustworthiness (no visible reviews above the fold), the size/variant selector was buried below a long description, and the checkout CTA was competing visually with four other actions at the same hierarchy level.</p>
+
+    <div class="cs-screens cols-2 reveal d2">
+      <div class="cs-screen" style="background:linear-gradient(135deg,#1a1020,#2e1b44);">
+        <div style="position:absolute;inset:0;background:radial-gradient(ellipse at 50% 50%,rgba(123,110,246,.2),transparent 70%);"></div>
+        <div class="cs-screen-label">Session recording<br>heatmap analysis</div>
+      </div>
+      <div class="cs-screen" style="background:linear-gradient(135deg,#0d1a2e,#1a2e44);">
+        <div style="position:absolute;inset:0;background:radial-gradient(ellipse at 50% 50%,rgba(226,201,126,.15),transparent 70%);"></div>
+        <div class="cs-screen-label">Usability test<br>observation notes</div>
+      </div>
+    </div>
+  </section>
+
+  <div class="sec-divider"></div>
+
+  <!-- PROCESS -->
+  <section class="cs-section">
+    <div class="sec-label reveal">03 — Process</div>
+    <h2 class="cs-section-title reveal d1">From diagnosis to <em>decision</em></h2>
+
+    <div class="cs-process reveal d1">
+      <div class="process-step">
+        <div class="process-step-num">01 — Discover</div>
+        <div class="process-step-title">Mapping the full journey</div>
+        <div class="process-step-desc">Session recordings, user interviews, and funnel analytics to understand where exactly intent was being lost and what users were trying to do at each step.</div>
+      </div>
+      <div class="process-step">
+        <div class="process-step-num">02 — Define</div>
+        <div class="process-step-title">Prioritising the friction points</div>
+        <div class="process-step-desc">Ranked findings by impact × effort. Three high-impact, low-effort changes emerged: trust signal placement, variant selector position, and CTA visual hierarchy.</div>
+      </div>
+      <div class="process-step">
+        <div class="process-step-num">03 — Design</div>
+        <div class="process-step-title">Progressive disclosure approach</div>
+        <div class="process-step-desc">Restructured the PDP around user intent: see → validate → configure → buy. Each section answers one question before the user has to ask it.</div>
+      </div>
+      <div class="process-step">
+        <div class="process-step-num">04 — Test &amp; Ship</div>
+        <div class="process-step-title">A/B test + iterative rollout</div>
+        <div class="process-step-desc">Ran a 2-week A/B test on 20% of users before full rollout. Iterated on one edge case around variant selection before the final ship.</div>
+      </div>
+    </div>
+  </section>
+
+  <div class="sec-divider"></div>
+
+  <!-- SOLUTION -->
+  <section class="cs-section">
+    <div class="sec-label reveal">04 — Solution</div>
+    <h2 class="cs-section-title reveal d1">Rebuilding the <em>path to purchase</em></h2>
+    <p class="cs-body reveal d1">The redesigned PDP follows a strict information hierarchy — hero image, trust signals (rating + review count + badges), variant selector, then a single dominant CTA. Every element that competed with the primary action was removed or demoted.</p>
+    <p class="cs-body reveal d2">I introduced a sticky bottom bar that followed users as they scrolled — surfacing the CTA and price without interrupting their evaluation phase. This alone accounted for the majority of the conversion lift.</p>
+
+    <div class="cs-screens cols-3 reveal d1">
+      <div class="cs-screen" style="background:linear-gradient(160deg,#1a1020,#2e1b44,#0d0814);">
+        <div style="position:absolute;inset:0;background:radial-gradient(ellipse at 50% 30%,rgba(123,110,246,.25),transparent 60%);"></div>
+        <div class="cs-screen-label">Before — PDP</div>
+      </div>
+      <div class="cs-screen" style="background:linear-gradient(160deg,#0d1a14,#1a3022,#080f0a);">
+        <div style="position:absolute;inset:0;background:radial-gradient(ellipse at 50% 50%,rgba(74,222,128,.18),transparent 60%);"></div>
+        <div class="cs-screen-label">After — Redesigned PDP</div>
+      </div>
+      <div class="cs-screen" style="background:linear-gradient(160deg,#1a1400,#2e2200,#0f0d00);">
+        <div style="position:absolute;inset:0;background:radial-gradient(ellipse at 50% 70%,rgba(226,201,126,.2),transparent 60%);"></div>
+        <div class="cs-screen-label">Sticky checkout bar</div>
+      </div>
+    </div>
+
+    <div class="cs-callout reveal d2">
+      <div class="cs-callout-label">Key Insight</div>
+      <div class="cs-callout-text">"Users weren't confused — they were anxious. Every design decision became about reducing anxiety, not just reducing steps."</div>
+    </div>
+  </section>
+
+  <div class="sec-divider"></div>
+
+  <!-- RESULTS -->
+  <section class="cs-section">
+    <div class="sec-label reveal">05 — Results</div>
+    <h2 class="cs-section-title reveal d1">Numbers that <em>moved</em></h2>
+    <p class="cs-body reveal d1">The redesign went live in Q3 2024. Within 4 weeks of full rollout, every primary metric had improved. The team was particularly pleased with the basket size improvement — an unexpected byproduct of surfacing related products at the right moment in the purchase flow.</p>
+    <p class="cs-body reveal d2">The pattern library built for this project was subsequently adopted as part of a wider design system initiative, saving an estimated 3 weeks of design work on the next major feature.</p>
+  </section>
+
+  <div class="sec-divider"></div>
+
+  <!-- NEXT / PREV -->
+  <div class="cs-nav reveal">
+    <a href="../index.html" class="cs-nav-card prev">
+      <div class="cs-nav-dir">← Back</div>
+      <div class="cs-nav-title">Portfolio Home</div>
+      <div class="cs-nav-arr">←</div>
+    </a>
+    <a href="orbit.html" class="cs-nav-card">
+      <div class="cs-nav-dir">Next Case Study →</div>
+      <div class="cs-nav-title">Orbit Design System</div>
+      <div class="cs-nav-arr">→</div>
+    </a>
+  </div>
+
+  <div style="height:48px;"></div>
+</main>
+
+<script src="../js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Atharva Dahotre — Product Designer</title>
+<meta name="description" content="Product Designer based in Bengaluru. Crafting digital experiences that are clear, usable, and meticulously considered.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500&family=DM+Mono:wght@300;400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<div id="cur-dot"></div>
+<div id="cur-ring"></div>
+
+<!-- ─── SIDEBAR ─── -->
+<aside id="sidebar">
+  <div class="side-avatar-wrap">
+    <div class="side-avatar">AD</div>
+    <div class="status-dot"></div>
+  </div>
+
+  <div class="side-open">
+    <span style="width:7px;height:7px;border-radius:50%;background:var(--green);flex-shrink:0;display:inline-block;"></span>
+    Open to Work
+  </div>
+
+  <div class="side-name">Atharva Dahotre</div>
+  <div class="side-handle">
+    <span>@atharvadahotre</span>
+    <span>·</span>
+    <span>📍 Bengaluru, India</span>
+  </div>
+  <div class="side-role">Product Designer</div>
+  <div class="side-exp">5+ Years Experience</div>
+
+  <div style="font-size:11px;color:var(--muted);letter-spacing:.06em;text-transform:uppercase;margin-bottom:8px;">Includes</div>
+  <div class="side-logos">
+    <div class="logo-chip" title="Reward360">R360</div>
+    <div class="logo-chip" title="FinEdge">FIN</div>
+    <div class="logo-chip" title="Orbits SaaS">ORB</div>
+    <div class="logo-chip" title="Growth Labs">GL</div>
+  </div>
+
+  <div class="side-actions">
+    <button class="btn-msg">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+      Message
+    </button>
+    <button class="btn-bk" title="Bookmark">🔖</button>
+  </div>
+
+  <div class="side-divider"></div>
+
+  <nav class="side-nav">
+    <a href="#hero" class="active">
+      <span class="icon">◈</span> Profile
+    </a>
+    <a href="#work">
+      <span class="icon">◫</span> Portfolio
+    </a>
+  </nav>
+
+  <div class="side-divider" style="margin-top:16px;"></div>
+
+  <div class="theme-toggle-wrap">
+    <button id="theme-toggle" aria-label="Toggle light/dark mode">
+      <div id="theme-toggle-thumb">☀︎</div>
+    </button>
+    <span class="theme-toggle-label" id="theme-label">Dark mode</span>
+  </div>
+
+  <div class="side-footer">
+    <div style="margin-bottom:4px;">atharvadahotre.com</div>
+    <div style="font-size:10px;color:var(--muted);margin-top:2px;">© 2025</div>
+  </div>
+</aside>
+
+<!-- ─── MAIN CONTENT ─── -->
+<main id="main">
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-avatar-row reveal">
+      <div class="hero-avatar">AD</div>
+      <div class="avail-badge">
+        <span class="dot"></span>
+        Open To Full-Time Roles · Immediate Joiner
+      </div>
+    </div>
+
+    <h1 class="hero-h1">
+      <span class="word" style="transition-delay:.05s">Product</span>
+      <span class="word" style="transition-delay:.12s">&nbsp;</span>
+      <span class="word" style="transition-delay:.18s">Designer</span><br>
+      <span class="word" style="transition-delay:.26s">&amp;&nbsp;</span>
+      <span class="word" style="transition-delay:.32s"><em>Builder</em></span>
+    </h1>
+
+    <p class="hero-desc">
+      I'm Atharva — I craft digital experiences that are clear, usable, and meticulously considered. I focus on understanding the real problem and shaping interactions that balance functionality and expression, helping products grow in meaningful ways.
+    </p>
+
+    <div class="hero-ctas reveal d2">
+      <a href="#" class="cta-primary"><span>Book a Call ↗</span></a>
+      <a href="mailto:hello@atharvadahotre.com" class="cta-secondary">
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+        Email
+      </a>
+    </div>
+  </section>
+
+  <div class="sec-divider"></div>
+
+  <!-- WORKED WITH -->
+  <section id="worked" class="reveal">
+    <div class="worked-label">Worked With</div>
+    <div class="worked-logos">
+      <div class="wlogo">Reward360</div>
+      <div class="wlogo">FinEdge</div>
+      <div class="wlogo">Orbits</div>
+      <div class="wlogo">GrowthLabs</div>
+      <div class="wlogo">UX Gym</div>
+      <div class="wlogo">Nobero</div>
+    </div>
+  </section>
+
+  <div class="sec-divider"></div>
+
+  <!-- WORK -->
+  <section id="work">
+    <div class="sec-label reveal">Work</div>
+
+    <div class="project-card reveal d1">
+      <div class="project-thumb">
+        <div class="project-thumb-inner">
+          <div class="project-thumb-bg" style="background:linear-gradient(135deg,#1a1020,#2e1b44,#150e28);"></div>
+          <div style="position:absolute;inset:0;background:radial-gradient(ellipse at 55% 40%,rgba(123,110,246,.35),transparent 60%);"></div>
+          <div class="project-thumb-label">crafting<br>finedge</div>
+        </div>
+      </div>
+      <div class="project-info">
+        <div class="project-tags">
+          <span class="ptag">Interaction Design</span>
+          <span class="ptag">Mobile App</span>
+        </div>
+        <h3 class="project-name">Why were users dropping off before checkout? A PDP Case Study from FinEdge</h3>
+        <div style="display:flex;gap:8px;margin-bottom:14px;flex-wrap:wrap;">
+          <div class="project-metric"><span class="up">+0.92%</span> CVR · <span class="up">+1.33%</span> RPU · <span class="up">+0.36%</span> AOV</div>
+        </div>
+        <p class="project-desc">Redesigned the product detail and checkout flow reducing drop-off by 22% through progressive disclosure and trust-building micro-interactions.</p>
+        <a href="case-studies/finedge.html" class="project-cta">View case study →</a>
+      </div>
+    </div>
+
+    <div class="project-card reveal d1">
+      <div class="project-thumb">
+        <div class="project-thumb-inner">
+          <div class="project-thumb-bg" style="background:linear-gradient(135deg,#061418,#0d2230,#040e14);"></div>
+          <div style="position:absolute;inset:0;background:radial-gradient(ellipse at 40% 60%,rgba(226,201,126,.22),transparent 60%);"></div>
+          <div class="project-thumb-label">crafting<br>orbit</div>
+        </div>
+      </div>
+      <div class="project-info">
+        <div class="project-tags">
+          <span class="ptag">Product Design</span>
+          <span class="ptag">Design System</span>
+          <span class="ptag">Landing Page</span>
+        </div>
+        <h3 class="project-name">How I designed Orbit end-to-end — app, system, and landing page</h3>
+        <div style="display:flex;gap:8px;margin-bottom:14px;">
+          <div class="project-metric"><span class="up">2000+</span> waitlist signups</div>
+        </div>
+        <p class="project-desc">Built a comprehensive design system with 200+ components, tokens, and documentation that unified three product teams and shipped in 6 weeks.</p>
+        <a href="case-studies/orbit.html" class="project-cta">View case study →</a>
+      </div>
+    </div>
+
+    <div class="project-card reveal d2">
+      <div class="project-thumb">
+        <div class="project-thumb-inner">
+          <div class="project-thumb-bg" style="background:linear-gradient(135deg,#091309,#132213,#060f06);"></div>
+          <div style="position:absolute;inset:0;background:radial-gradient(ellipse at 65% 35%,rgba(74,222,128,.2),transparent 60%);"></div>
+          <div class="project-thumb-label">crafting<br>analytics</div>
+        </div>
+      </div>
+      <div class="project-info">
+        <div class="project-tags">
+          <span class="ptag">Dashboard Design</span>
+          <span class="ptag">B2B SaaS</span>
+        </div>
+        <h3 class="project-name">Turning dense data into actionable interfaces for 500+ enterprise users</h3>
+        <div style="display:flex;gap:8px;margin-bottom:14px;">
+          <div class="project-metric"><span class="up">+34%</span> daily active usage · <span class="up">−28%</span> support tickets</div>
+        </div>
+        <p class="project-desc">Redesigned a complex analytics platform — replacing dense tables with scannable visual hierarchies and intelligent defaults.</p>
+        <a href="case-studies/analytics.html" class="project-cta">View case study →</a>
+      </div>
+    </div>
+  </section>
+
+  <div class="sec-divider"></div>
+
+  <!-- EXPERTISE -->
+  <section id="expertise">
+    <div class="sec-label reveal">Expertise</div>
+    <div class="expertise-grid">
+      <div class="exp-cell reveal">
+        <span class="exp-num">01</span>
+        <div class="exp-line"></div>
+        <h3 class="exp-title">Product Design</h3>
+        <p class="exp-desc">Turning complex problems into thoughtful, usable &amp; delightful product experiences that balance user needs, business goals, and evolving technology.</p>
+      </div>
+      <div class="exp-cell reveal d1">
+        <span class="exp-num">02</span>
+        <div class="exp-line"></div>
+        <h3 class="exp-title">Visual Craft &amp; Taste</h3>
+        <p class="exp-desc">Deeply invested in craft — with a sharp eye for visual detail, creating interfaces &amp; interactions that are clear, feel intentional, and are well crafted.</p>
+      </div>
+      <div class="exp-cell reveal d2">
+        <span class="exp-num">03</span>
+        <div class="exp-line"></div>
+        <h3 class="exp-title">Prototyping &amp; No Code</h3>
+        <p class="exp-desc">Building high fidelity prototypes using Figma and Framer to bring thoughtful web experiences to life quickly, with real motion and real interactions.</p>
+      </div>
+      <div class="exp-cell reveal d1">
+        <span class="exp-num">04</span>
+        <div class="exp-line"></div>
+        <h3 class="exp-title">Interaction Design</h3>
+        <p class="exp-desc">Designing responsive flows and human AI interactions that feel intuitive, reliable, and easy to navigate &amp; use — every state considered.</p>
+      </div>
+      <div class="exp-cell reveal d2">
+        <span class="exp-num">05</span>
+        <div class="exp-line"></div>
+        <h3 class="exp-title">Systems Thinking</h3>
+        <p class="exp-desc">Designing with states, edge cases, and scalability in mind so every feature works as part of a connected, coherent system.</p>
+      </div>
+      <div class="exp-cell reveal d3">
+        <span class="exp-num">06</span>
+        <div class="exp-line"></div>
+        <h3 class="exp-title">Experimentation</h3>
+        <p class="exp-desc">Continuously experimenting with new tools, workflows, and emerging interaction paradigms to refine craft and stay ahead of product patterns.</p>
+      </div>
+    </div>
+  </section>
+
+  <div class="sec-divider"></div>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="sec-label reveal">About</div>
+    <div class="about-grid">
+      <div>
+        <h2 class="about-h2 reveal d1">I design products<br>people <em>actually</em> love.</h2>
+        <p class="about-body reveal d2">I'm a product designer based in Bengaluru with 5+ years of experience shipping real products across fintech, SaaS, and e-commerce. I care deeply about craft — every transition, every empty state, every micro-interaction gets the same attention as the hero screen.</p>
+        <p class="about-body reveal d2">Outside of screens, you'll find me reading about cognitive psychology, exploring generative art, obsessing over specialty coffee, or picking up a new mechanical keyboard.</p>
+        <div class="about-tags reveal d3">
+          <span class="atag">Product Strategy</span>
+          <span class="atag">Figma</span>
+          <span class="atag">Framer</span>
+          <span class="atag">UX Research</span>
+          <span class="atag">Design Systems</span>
+          <span class="atag">Motion Design</span>
+        </div>
+      </div>
+      <div class="reveal d2">
+        <div class="about-card">
+          <div class="corner corner-tl"></div>
+          <div class="corner corner-br"></div>
+          <div class="about-card-top">
+            <div class="about-card-avatar">AD</div>
+            <div>
+              <div class="about-card-name">Atharva Dahotre</div>
+              <div class="about-card-role">Product Designer · Bengaluru, India</div>
+            </div>
+          </div>
+          <div class="about-divider"></div>
+          <div class="about-stat-row">
+            <div class="about-stat">
+              <div class="about-stat-num">5+</div>
+              <div class="about-stat-label">Years Exp.</div>
+            </div>
+            <div class="about-stat">
+              <div class="about-stat-num">40+</div>
+              <div class="about-stat-label">Projects</div>
+            </div>
+            <div class="about-stat">
+              <div class="about-stat-num">12+</div>
+              <div class="about-stat-label">Clients</div>
+            </div>
+          </div>
+          <div class="about-divider"></div>
+          <div style="font-size:13px;color:var(--muted);line-height:1.7;">
+            Currently <span style="color:var(--green);">open to full-time roles</span> and select freelance projects. Immediate joiner. Let's build something great.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="sec-divider"></div>
+
+  <!-- TESTIMONIALS -->
+  <section id="testimonials">
+    <div class="sec-label reveal">People I Worked With</div>
+    <div class="testi-cards">
+      <div class="testi-card reveal">
+        <div class="testi-qmark">"</div>
+        <div class="testi-text">One of the most important reasons someone should hire Atharva is that he has an insane amount of attention to detail. Whatever he delivers, he goes very deep into it and that depth is clearly reflected in his thinking, the visuals, everything. You can just give him surface level ideas and he will take you to that depth.</div>
+        <div class="testi-author">
+          <div class="testi-author-avatar">UA</div>
+          <div class="testi-name">UX Anudeep</div>
+          <div class="testi-role">UX Gym Founder &amp; Mentor</div>
+        </div>
+      </div>
+      <div class="testi-card reveal d1">
+        <div class="testi-qmark">"</div>
+        <div class="testi-text">Watching Atharva grow has been impressive — the creativity, accountability, and care he brings to delivering thoughtful design solutions is genuinely rare in designers with his level of experience.</div>
+        <div class="testi-author">
+          <div class="testi-author-avatar">MJ</div>
+          <div class="testi-name">Mohammed Jaseem</div>
+          <div class="testi-role">Head of Design, TMRW</div>
+        </div>
+      </div>
+      <div class="testi-card reveal d2">
+        <div class="testi-qmark">"</div>
+        <div class="testi-text">Atharva has this rare ability to see both the forest and the trees. He thinks about systems and scalability while also sweating every pixel. Our design system shipped on time and our devs actually loved working with it.</div>
+        <div class="testi-author">
+          <div class="testi-author-avatar">SR</div>
+          <div class="testi-name">Siddharth Rao</div>
+          <div class="testi-role">CEO, FinEdge Technologies</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div style="height:48px;"></div>
+</main>
+
+<!-- FLOATING NAV PILL -->
+<nav id="float-nav">
+  <a href="#work"      class="fn-link active">Work</a>
+  <a href="#expertise" class="fn-link">Expertise</a>
+  <a href="#about"     class="fn-link">About</a>
+  <a href="#"          class="fn-resume">
+    Resume <span class="fn-resume-arr">↗</span>
+  </a>
+</nav>
+
+<script src="js/main.js"></script>
+</body>
+</html>
